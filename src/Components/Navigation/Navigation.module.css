@@ -1,0 +1,20 @@
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #101828;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.active {
+  text-decoration: none;
+  color: #d84343;
+}

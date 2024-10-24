@@ -1,0 +1,50 @@
+.labelLocation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6c717b;
+}
+
+.locationContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputLocation {
+  border-radius: 12px;
+  padding: 18px 18px 18px 46px;
+  width: 360px;
+  height: 56px;
+  background: #f7f7f7;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #101828;
+}
+
+.inputLocation::placeholder {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6c717b;
+}
+
+.icon {
+  position: absolute;
+  top: 60px;
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-50%);
+  color: #6c717b;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.locationContainer:focus-within .icon {
+  color: #101828;
+}
