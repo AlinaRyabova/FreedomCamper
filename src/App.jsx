@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const HomePage = lazy(() => import("../src/pages/HomePage/HomePage"));
 
-export default function App(): JSX.Element {
+export default function App() {
   return (
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
