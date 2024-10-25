@@ -1,0 +1,11 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  padding: 0 64px;
+  width: 1440px;
+  margin: auto;
+}
+
+.header {
+  background-color: #f2f4f7;
+}
