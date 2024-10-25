@@ -26,7 +26,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/public/img/banner-min.jpg);
+  background-image: url(/img/banner-min.jpg);
 }
 
 .catalogLink:hover {
@@ -54,7 +54,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/public/img/banner-min.jpg);
+  background-image: url(/img/banner-min.jpg);
 }
 .catalogLink {
   transition: background-color 0.3s ease;
