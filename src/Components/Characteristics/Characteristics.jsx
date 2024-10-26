@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import css from "./Characteristics.module.css";
 
 const addSpace = (str) => {
