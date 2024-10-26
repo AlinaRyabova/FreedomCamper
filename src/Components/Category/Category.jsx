@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { FaHandHoldingWater } from "react-icons/fa";
 import css from "./Category.module.css";
 import { FaFireBurner } from "react-icons/fa6";
