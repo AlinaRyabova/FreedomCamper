@@ -1,0 +1,11 @@
+.headerContainer {
+  padding: 0 64px;
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  background-color: var(--badges);
+}
