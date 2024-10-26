@@ -1,7 +1,7 @@
 .navList {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 32px;
 }
 
 .link {

@@ -7,7 +7,7 @@
 .mainTitle {
   font-weight: 600;
   font-size: 48px;
-  color: #f7f7f7;
+  color: var(--inputs);
   margin-bottom: 12px;
   line-height: 67%;
   margin-bottom: 16px;
@@ -17,7 +17,7 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 133%;
-  color: #f7f7f7;
+  color: var(--inputs);
   margin-bottom: 40px;
 }
 
@@ -39,12 +39,12 @@
   padding: 16px 48.5px;
   width: 173px;
   height: 56px;
-  background-color: #e44848;
+  background-color: var(--button);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: -0.01em;
-  color: white;
+  color: var(--white);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
