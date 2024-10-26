@@ -39,6 +39,7 @@ export default function CatalogTruckCard({ truck }) {
               {price.toLocaleString("en-US", {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2,
+                useGrouping: false,
               })}
             </h2>
             <button
