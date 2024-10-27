@@ -1,8 +1,35 @@
-# React + Vite
+FreedomCamper
+FreedomCamper – це веб-додаток для оренди кемперів, створений за допомогою Vite, React, Redux, React Router та Axios. Проєкт дозволяє користувачам переглядати каталог кемперів, переглядати деталі, відгуки та резервувати кемпери.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Вимоги
+Перед початком переконайтеся, що на вашому комп'ютері встановлено:
 
-Currently, two official plugins are available:
+Node.js (рекомендована версія: >= 14)
+npm
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Встановлення
+Склонуйте цей репозиторій на ваш локальний пристрій:
+
+git clone https://github.com/AlinaRyabova/freedomcamper.git
+
+Перейдіть до папки проєкту:
+
+cd freedomcamper
+
+Встановіть залежності:
+
+npm install
+
+Режим розробки: Для запуску проєкту в режимі розробки використовуйте команду:
+
+npm run dev
+
+Проєкт буде запущено на http://localhost:5173 (за замовчуванням).
+
+Основні технології
+
+React – бібліотека для створення інтерфейсів користувача
+Redux Toolkit – бібліотека для керування станом додатку
+React Router – бібліотека для маршрутизації
+Axios – бібліотека для HTTP-запитів
+Formik та Yup – для валідації та обробки форм
