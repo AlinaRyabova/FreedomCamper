@@ -34,7 +34,7 @@ export default function CatalogTruckCard({ truck }) {
         <div className={css.costContainer}>
           <h2 className={css.truckName}>{name}</h2>
           <div className={css.priceContainer}>
-            <h2 className={css.truckPrice}>€{price}</h2>
+            <h2 className={css.truckPrice}>€{price.toFixed(2)}</h2>
             <button
               onClick={handleIsFavorite}
               type="button"

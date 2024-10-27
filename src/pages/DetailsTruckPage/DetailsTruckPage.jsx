@@ -46,7 +46,7 @@ export default function DetailsTruckPage() {
             <p className={css.location}>{location}</p>
           </div>
         </div>
-        <h2 className={css.truckPrice}>€{price}</h2>
+        <h2 className={css.truckPrice}>€{price.toFixed(2)}</h2>
       </div>
 
       <ul className={css.galleryList}>
