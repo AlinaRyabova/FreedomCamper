@@ -1,6 +1,6 @@
 .headerContainer {
   padding: 0 64px;
-  max-width: 1440px;
+  width: 1440px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -8,4 +8,11 @@
 
 .header {
   background-color: var(--badges);
+  width: 100%;
+}
+
+.mainContainer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
