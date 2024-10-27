@@ -14,9 +14,8 @@
   font-weight: 600;
   font-size: 48px;
   color: var(--inputs);
-  margin-bottom: 12px;
-  line-height: 67%;
   margin-bottom: 16px;
+  line-height: 67%;
 }
 
 .subTitle {

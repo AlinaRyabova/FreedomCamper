@@ -24,7 +24,7 @@ export default function Layout({ children }) {
             <Navigation />
           </div>
         </header>
-        <main className={css.mainContainer}>{children}</main>
+        {children}
       </Suspense>
     </>
   );
