@@ -5,7 +5,6 @@
   border-radius: 10px;
   padding: 44px;
   width: 641px;
-  height: 588px;
 }
 
 .button {
@@ -21,7 +20,7 @@
   line-height: 150%;
   letter-spacing: -0.01em;
   color: var(--white);
-  margin: auto auto 0 auto;
+  margin: auto;
 }
 
 .button:hover {
