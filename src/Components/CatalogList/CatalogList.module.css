@@ -27,7 +27,7 @@
   letter-spacing: -0.01em;
   color: var(--main);
   background-color: transparent;
-  margin: 49px 371px 0px 371px;
+  margin: 40px 371px 52px 372px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .disLoadMore {
@@ -47,21 +47,4 @@
 
 .loadMore:hover {
   border: 1px solid var(--button-hover);
-}
-
-.badFilter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 888px;
-}
-
-.badFilterImg {
-  margin: 0 auto;
-  width: 600px;
-}
-
-.fetchErrorImg {
-  margin: 0 auto;
-  width: 600px;
 }

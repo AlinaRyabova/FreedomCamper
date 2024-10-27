@@ -46,14 +46,7 @@ export default function DetailsTruckPage() {
             <p className={css.location}>{location}</p>
           </div>
         </div>
-        <h2 className={css.truckPrice}>
-          €
-          {price.toLocaleString("en-US", {
-            minimumFractionDigits: 2,
-            maximumFractionDigits: 2,
-            useGrouping: false,
-          })}
-        </h2>
+        <h2 className={css.truckPrice}>€{price}</h2>
       </div>
 
       <ul className={css.galleryList}>

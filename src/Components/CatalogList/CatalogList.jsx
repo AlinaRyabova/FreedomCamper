@@ -37,12 +37,12 @@ export default function CatalogList() {
         ))}
       </ul>
       {error && (
-        <div className={css.fetchErrorImg}>
+        <div>
           <p>Connection issues. Please try again later.</p>
         </div>
       )}
       {trucks.length === 0 && !loading && !error ? (
-        <div className={css.badFilter}>
+        <div>
           <p>Oops! We couldn't find any vans with your filters.</p>
         </div>
       ) : (
