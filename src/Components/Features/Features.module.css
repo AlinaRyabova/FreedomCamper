@@ -5,9 +5,9 @@
 
 .featuresInfo {
   border-radius: 10px;
-  padding: 44px 80px;
+  padding: 44px 40px;
   width: 631px;
-  height: 588px;
+  /* height: 588px; */
   background-color: var(--inputs);
 }
 

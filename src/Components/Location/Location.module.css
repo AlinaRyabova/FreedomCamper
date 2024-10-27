@@ -14,7 +14,7 @@
 
 .inputLocation {
   border-radius: 12px;
-  padding: 18px 18px 18px 46px;
+  padding: 16px 20px 16px 46px;
   width: 360px;
   height: 56px;
   background: var(--inputs);
@@ -36,7 +36,7 @@
 
 .icon {
   position: absolute;
-  top: 78px;
+  top: 76px;
   left: 18px;
   width: 20px;
   height: 20px;

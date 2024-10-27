@@ -28,7 +28,6 @@
 .customCheckboxContainer {
   border: 1px solid var(--gray-light);
   border-radius: 12px;
-  padding: 16px 18px;
   width: 112px;
   height: 96px;
   display: flex;
